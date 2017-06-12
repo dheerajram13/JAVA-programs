@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
-import java.io.*;
-import java.util.Scanner;
+
                                                            //Insertion sort  in Java
 public class test1
 {

@@ -1,3 +1,4 @@
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -12,11 +13,10 @@ public class test1
         for (i = 1; i< N; i++) 
         {
         	j=i;
-            temp = arr[i];    
-                		
-        
+            temp = arr[i];   
+            
             while (j > 0 && temp < arr[j-1])
-            {
+            {                 
                 arr[j] = arr[j-1];
                 j = j-1;
             }
